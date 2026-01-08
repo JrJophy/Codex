@@ -1,73 +1,133 @@
-# Welcome to your Lovable project
+Chronicle – Social Media Blog Platform
 
-## Project info
+Chronicle is a modern social media + blogging web application that allows users to create profiles, share posts, and communicate through personal and group messaging.
+The project focuses on clean UI, simple UX, and functional user flows using mock data and local storage.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Features
+Authentication
 
-## How can I edit this code?
+User registration
 
-There are several ways of editing your application.
+Login & logout
 
-**Use Lovable**
+Session persistence
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Form validation
 
-Changes made via Lovable will be committed automatically to this repo.
+User Profiles
 
-**Use your preferred IDE**
+Profile with name, photo, bio, and posts
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Search other users by name
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+View public profiles
 
-Follow these steps:
+Social Posting
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Create and publish posts
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+View posts from other users
 
-# Step 3: Install the necessary dependencies.
-npm i
+Open full post view
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Profile pictures shown on posts
 
-**Edit a file directly in GitHub**
+Messaging
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+One-to-one messaging
 
-**Use GitHub Codespaces**
+Group chats
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Message history with sender and time
 
-## What technologies are used for this project?
+Account Settings
 
-This project is built with:
+Update name
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Change profile photo
 
-## How can I deploy this project?
+Edit bio
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Save confirmation feedback
 
-## Can I connect a custom domain to my Lovable project?
+Image Handling
 
-Yes, you can!
+Profile images cropped to portrait format
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Blog images cropped to landscape format
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Preview before saving
+
+Tech Stack
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+Local Storage (Mock Data)
+
+No backend is used. This is a functional demo application.
+
+Access Rules
+
+Only logged-in users can:
+
+Create posts
+
+Send messages
+
+Join groups
+
+Edit profiles
+
+Project Purpose
+
+This project was built to demonstrate:
+
+User flow design
+
+Social platform logic
+
+Profile and messaging systems
+
+UI/UX structure
+
+Front-end functionality
+
+It is suitable for:
+
+Portfolio projects
+
+College submissions
+
+UI/UX demos
+
+MVP concepts
+
+Limitations
+
+No real backend
+
+No cloud database
+
+No real-time messaging
+
+Uses mock data / local storage
+
+Future Improvements
+
+Firebase / Supabase integration
+
+Real-time chat
+
+Media sharing
+
+Notifications
+
+Follow / Friend system
+
+Author
+
+Built by Joel Jophy
